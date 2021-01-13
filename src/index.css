@@ -1,13 +1,72 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+body{
+    background: cornsilk;
+    font-family: 'Yusei Magic', sans-serif;
+    padding: 50px 200px 50px 200px;
+    
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#container {
+    font-family: 'Special Elite', cursive;
+    display: flex;
+    justify-content: center;
+    border-radius: 10%;
+    padding: 15px;
+}
+
+button{
+    background-color: gold;
+    border-radius: 100%;
+    border: 3px solid black;
+    cursor: pointer;
+    font-size: xx-large;
+    margin-left: 20px;
+    box-shadow: -1px 2px 20px 0px #636262;
+    
+
+}
+
+input{
+    border: 3px solid black;
+    padding: 4px;
+    box-shadow: 0px 7px 7px 0px #636262;
+    border-radius: 5px;
+}
+
+button:hover{
+    /* background-color:lightblue; */
+    background-color:greenyellow;
+}
+li{
+    list-style: none;
+    margin: 5px;
+    padding: 12px;
+    background-color: aquamarine;
+    border-radius: 6px;
+    width: fit-content;
+    min-width: 100%;
+    margin-left: -20px;
+    /* max-width: 150px; */
+}
+
+h1{
+    margin-left: 66px;
+    letter-spacing: 7px;
+}
+
+form{
+    margin-left: 66px;
+    margin-bottom: 54px;
+    margin-top: 40px;
+
+}
+#cross{
+    float: right;
+}
+#cross:hover{
+    color: red;
+}
+
+#icon{
+    font-size: 17px;
 }
