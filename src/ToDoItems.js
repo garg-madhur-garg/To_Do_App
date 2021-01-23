@@ -13,9 +13,10 @@ class ToDoItems extends Component {
         let entries = this.props.entries;
         let listItems = entries.map((data) => {
             return <li key={data.key}>{data.text}
-            <span id="cross">
-            <i id="icon" class="fas fa-times" onClick={() => this.delete(data.key)}></i>
-            </span></li>
+                <span id="cross">
+                    <i id="icon" class="fas fa-times" onClick={() => this.delete(data.key)}></i>
+                </span>
+            </li>
         });
         return (
             <div>
